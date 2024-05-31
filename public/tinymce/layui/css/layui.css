@@ -1,0 +1,9 @@
+.mce-content-body {
+    padding: 30px;
+
+
+}
+
+.mce-content-body div {
+    white-space: normal !important;
+}

@@ -1,0 +1,286 @@
+import { area } from "@/utils/area";
+
+// 资质描述配置
+export const mockjs = {
+  firstNodeList: [
+    {
+      finishTime: 1680663979000,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: null,
+      secondNodeList: [
+        {
+          finishTime: 1680663979000,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "分配作业人员",
+        },
+        {
+          finishTime: 1680663980000,
+          cardFlag: true,
+          nodeCardVo: {
+            orderJobId: 7,
+            parentNodeId: 1643810911498031106,
+            userId: 1,
+            content: "测试节点卡片",
+            imgUrl: "xxxxxx",
+            fileUrl: "xxxxx",
+            id: 1,
+          },
+          name: null,
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "工单作业激活",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: "首款",
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "待收款确认",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "收款确认",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "收集对接资料",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: "尾款",
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "待收款确认",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "收款确认",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "申报资料制作",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: null,
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "资料申报",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: null,
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "生成流水号",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: null,
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "等待受理",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: null,
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "审批办理中",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: null,
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "结果通知",
+    },
+    {
+      finishTime: null,
+      showButtonFlag: false,
+      orderNum: null,
+      moneyTag: null,
+      secondNodeList: [
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "等待节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "开始节点作业",
+        },
+        {
+          finishTime: null,
+          cardFlag: false,
+          nodeCardVo: null,
+          name: "节点作业完成",
+        },
+      ],
+      name: "工单结束",
+    },
+  ],
+  startButton: false,
+  launchMoneyButton: false,
+  finishButton: false,
+  cardButton: false,
+};
